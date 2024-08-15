@@ -9,7 +9,7 @@ function App() {
   const selectedBot = botCollectionData[selectedBotIndex];
 
   useEffect(() => {
-    fetch("http://localhost:3000/bots")
+    fetch("https://json-server-vercel-three-pearl.vercel.app/bots")
       .then((response) => response.json())
       .then(setBotCollectionData)
       .catch(console.error);
