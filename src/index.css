@@ -1,0 +1,18 @@
+:root,
+body {
+  height: 100%;
+}
+
+.img {
+  max-height: 50px;
+}
+
+.row {
+  cursor: pointer;
+}
+
+th,
+td {
+  text-align: center;
+  padding-inline: 20px;
+}
